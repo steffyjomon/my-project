@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/details.html">
+        <h4>Monthly Expense Report</h4>
+        <table>
+            <tr>
+                <td><label for="date1">Date:</label></td>
+                <td><input type="date" id="date1"></td>
+                
+            </tr>
+            <tr>
+                <td> <label for="mortgage1">Mortgage:</label></td>
+                <td> <input type="number" id="mortgage1" name="mortgage1" min="1"></td>  
+                   
+            </tr>
+            <tr>
+                <td> <label for="gas1">Gas:</label></td>
+                <td> <input type="number" id="gas1" name="gas1" min="1"></td>  
+                   
+            </tr>
+            <tr>
+                <td> <label for="childcare1">Childcare:</label></td>
+                <td> <input type="number" id="childcare1" name="childcare1" min="1"></td>  
+                   
+            </tr>
+            <tr>
+                <td> <label for="insurance1">Insurance:</label></td>
+                <td> <input type="number" id="insurance1" name="insurance1" min="1"></td>  
+            </tr>
+            <tr> 
+                <td> <label for="type1">Monthly</label> <input type="radio" id="type1" name="paymentType" value="Monthly"></td> 
+                <td> <label for="type2">Yearly</label> <input type="radio" id="type2" name="paymentType" value="Yearly"></td>  
+            </tr>
+            <tr>
+                <td> <label for="misc1">Misc:</label></td>
+                <td> <input type="number" id="misc1" name="misc1" min="1"></td>  
+                   
+            </tr>
+            <tr>
+               <td></td><td><input type="submit" name="submit" value="save"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
